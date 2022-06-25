@@ -8,7 +8,7 @@ const Header = () => {
                 <div className="header-container--title">To Do List</div>
                 <div className="header-container--search">
                     <div className="header-container--search-add">Add your to do list!</div>
-                    <input type ="text" className="header__search" placeholder="Search"></input>
+                    <input type ="text" className="header__search" placeholder="New Item"></input>
                     <button className="header__button">CREATE</button>
             </div>
             </div>
