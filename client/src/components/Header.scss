@@ -1,0 +1,11 @@
+.header {
+    &-container {
+        text-align: center;
+        &--title {
+            font-size: 3rem;
+            color: white;
+            background: purple; 
+            text-transform: uppercase;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.main {
+    &-container {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        border: solid 1px black;
+
+        &--todo{
+            width: 20vw;
+            height: 10vh;
+            border: solid 2px purple;
+        }
+
+        &--done{
+            border: solid 2px purple;
+            width: 20vw;
+            height: 10vh;
+        }
+    }
+}
